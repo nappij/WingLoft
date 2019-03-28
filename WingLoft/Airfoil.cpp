@@ -232,5 +232,5 @@ void Airfoil::redistributeAirfoil(int n, std::vector<Vector3>& points)
 // Return ordinate according to Cosine Spacing rule
 double Airfoil::cosineSpacing(int n, int i)
 {
-	return 0.5 * (1 - cos(M_PI * i / (double)(n - 1)));
+	return 0.5 * (1.0 - cos(M_PI * i / ((double)n - 1.0)));
 }

@@ -18,7 +18,7 @@
 // Constructor
 // *****************************************************************************
 WingBuilder::WingBuilder(const FileName& file)
-	: file(file)
+	: file(file), nChord(0)
 {
 }
 

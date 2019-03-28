@@ -45,9 +45,9 @@ private:
 		Airfoil airfoil;								// Airfoil shape
 		std::string airfoilName;						// Airfoil name
 		Vector3 leadingEdgePoint;						// Leading edge point
-		double chord;									// Chord length in XY plane
-		double twist;									// Twist about quarter chord, degrees
-		int nSpan;										// Number of spanwise grids between airfoils
+		double chord = 0.0;								// Chord length in XY plane
+		double twist = 0.0;								// Twist about quarter chord, degrees
+		int nSpan = 1;									// Number of spanwise grids between airfoils
 	};
 	
 	std::vector<WingStation> wingStations;				// All wingstations

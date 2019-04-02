@@ -16,7 +16,7 @@
 TEST(write, MatlabWriter)
 {
 	// Build the wing
-	FileName file("CRM_planform.dat");
+	FileName file(".\\test input\\CRM_planform.dat");
 	WingBuilder myWingBuilder(file);
 	std::unique_ptr<Wing> myWingPtr = myWingBuilder.buildWing();
 	

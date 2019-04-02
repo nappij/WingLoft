@@ -39,7 +39,7 @@ TEST(selig, Vector3)
 	// Test difficult to implement. See AirfoilComparison.xlsx for graphical representation of results.
 	// Code below generated result data.
 /*	
-	Airfoil BACJ = Airfoil::readSeligFormat("bacj.dat", 20);
+	Airfoil BACJ = Airfoil::readSeligFormat(".\\test input\\bacj.dat", 20);
 
 	// Write it out
 	std::cout << BACJ;

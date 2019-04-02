@@ -51,12 +51,12 @@ private:
 // *****************************************************************************
 // Test Wing
 // *****************************************************************************
-const FileName wingFile("test_planform.dat");
 std::unique_ptr<Wing> testWingPtr;
 
 // *****************************************************************************
 // Test WingBuilder
 // *****************************************************************************
+const FileName wingFile(".\\test input\\test_planform.dat");
 WingBuilderTester wingBuilderTester(wingFile);
 
 // *****************************************************************************
@@ -64,7 +64,7 @@ WingBuilderTester wingBuilderTester(wingFile);
 // *****************************************************************************
 TEST(constructor, WingBuilder)
 {
-	CHECK_EQUAL(".\\test_planform.dat", wingBuilderTester.getFile().getFullName());
+	CHECK_EQUAL(".\\test input\\test_planform.dat", wingBuilderTester.getFile().getFullName());
 }
 
 // *****************************************************************************

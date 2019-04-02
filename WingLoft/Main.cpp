@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 		std::cerr << "Illegal number of arguments. Usage:" << std::endl << std::endl;
 		std::cerr << "WINGLOFT inputfile [-v] [-m]" << std::endl << std::endl;
 		std::cerr << "  inputfile  Specifies the wing planform file.  If full path not" << std::endl;
-		std::cerr << "             specified, file is assume to be in working directory." << std::endl;
+		std::cerr << "             specified, file is assumed to be in working directory." << std::endl;
 		std::cerr << "  -v         Outputs wing loft in a .vtk file with same basename as" << std::endl;
 		std::cerr << "             inputfile." << std::endl;
 		std::cerr << "  -m         Outputs wing loft in a .m file with same basename as" << std::endl;
